@@ -1,0 +1,11 @@
+{
+    "name": "h0_protocol",
+    "version": "0.1.0",
+    "description": "Common protocol definitions for H03D RocNet",
+    "authors":
+    [
+        {
+            "name": "Lajos Paulo"
+        }
+    ]
+}
