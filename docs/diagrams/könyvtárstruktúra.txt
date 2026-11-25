@@ -1,0 +1,86 @@
+H03DRocNet/
+
+├── docs/
+│   ├── architecture/
+│   ├── protocol/
+│   ├── hardware/
+│   └── diagrams/
+│
+├── firmware/
+│
+│   ├── bridge/
+│   │
+│   │   ├── include/
+│   │   ├── src/
+│   │   │
+│   │   ├── core/
+│   │   ├── network/
+│   │   ├── rocnet/
+│   │   ├── ble/
+│   │   ├── handlers/
+│   │   ├── ota/
+│   │   └── main.cpp
+│   │
+│   └── platformio.ini
+│
+│
+│   ├── loco/
+│   │
+│   │   ├── include/
+│   │   ├── src/
+│   │   │
+│   │   ├── motor/
+│   │   ├── lighting/
+│   │   ├── battery/
+│   │   ├── sensors/
+│   │   ├── ble/
+│   │   ├── state/
+│   │   └── main.cpp
+│   │
+│   └── platformio.ini
+│
+│
+│   ├── tracknode/
+│   │
+│   │   ├── occupancy/
+│   │   ├── hall/
+│   │   ├── switches/
+│   │   ├── signals/
+│   │   ├── crossings/
+│   │   ├── lighting/
+│   │   └── main.cpp
+│   │
+│   └── platformio.ini
+│
+│
+│   └── testnode/
+│
+│
+├── libraries/
+│
+│   ├── h0_common/
+│   ├── h0_protocol/
+│   ├── h0_ble/
+│   ├── h0_rocnet/
+│   ├── h0_hal/
+│   └── h0_logging/
+│
+│
+├── tools/
+│
+│   ├── node_configurator/
+│   ├── ota_uploader/
+│   ├── rocnet_analyzer/
+│   └── packet_sniffer/
+│
+│
+├── hardware/
+│
+│   ├── loco_c3/
+│   ├── bridge_u32/
+│   ├── tracknode_u32/
+│   ├── pcb/
+│   └── stl/
+│
+│
+└── README.md
